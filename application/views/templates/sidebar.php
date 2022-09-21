@@ -4,7 +4,7 @@
      <!-- Sidebar - Brand -->
      <a class="sidebar-brand d-flex align-items-center justify-content-center">
          <div class="sidebar-brand-icon rotate-n-15">
-             <i class="fas fa-code"></i>
+             <i class="<?= base_url('assets/img/Logo/'); ?>"></i>
          </div>
          <div class="sidebar-brand-text mx-3">Jogosetran Admin <sup>2</sup></div>
      </a>
@@ -39,7 +39,7 @@
      </li>
 
      <li class="nav-item">
-         <a class="nav-link" href="charts.html">
+         <a class="nav-link" href="<?= base_url('datagereja/index')?>">
              <i class="fas fa-fw fa-church"></i>
              <span>Kelola data Gereja</span></a>
      </li>
@@ -57,19 +57,19 @@
      </li>
 
      <li class="nav-item">
-         <a class="nav-link" href="charts.html">
+         <a class="nav-link" href="<?= base_url('warta/index'); ?>">
              <i class="fas fa-book-open"></i>
              <span>Kelola Warta</span></a>
      </li>
 
      <li class="nav-item">
-         <a class="nav-link" href="charts.html">
+         <a class="nav-link" href="<?= base_url('dokumen/index')?>">
              <i class="fas fa-folder-open"></i>
              <span>Kelola Dokumen</span></a>
      </li>
 
      <li class="nav-item">
-         <a class="nav-link" href="charts.html">
+         <a class="nav-link" href="<?= base_url('dokumentasi/index')?>">
              <i class="fa fa-images"></i>
              <span>Kelola Dokumentasi</span></a>
      </li>

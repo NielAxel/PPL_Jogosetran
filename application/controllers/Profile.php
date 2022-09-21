@@ -104,7 +104,7 @@ class Profile extends CI_Controller
       $riwayat_pendidikan = $this->input->post('riwayat_pendidikan');
       $id = $this->input->post('id_gembala');
       $data = array(
-        "nama_gembala" => $nama_gembala,
+        "nama_gembala" => $nama_gembala, 
         "deskripsi_gembala" => $deskripsi_gembala,
         "riwayat_pendidikan" => $riwayat_pendidikan,
         "gambar" => $gambar

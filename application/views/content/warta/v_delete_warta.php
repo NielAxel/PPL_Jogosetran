@@ -1,21 +1,22 @@
 <div class="container-fluid mt-3">
    <div class="card ">
       <div class="card-header bg-info text-white">
-         <h3 class="card-title">Form Hapus Data Gembala</h3>
+         <h3 class="card-title">Hapus Warta</h3>
       </div>
       <div class="card-body">
-         <form id="form-delete-gembala" action="<?= site_url('profile/delete') ?>" method="post">
+         <form id="form-delete-gembala" action="<?= site_url('warta/delete') ?>" method="post">
             <div class="form-group">
-               <label for="">Nama Gembala</label>
-               <input value="<?= $profile->nama_gembala ?>" readonly class="form-control col-5" name="nama_gembala" placeholder="Masukan Nama gembala " type="text">
+               <label for="">Judul Warta</label>
+               <input value="<?= $wartas->judul_warta ?>" readonly class="form-control col-5" 
+               name="judul_warta" placeholder="Masukan Nama gembala " type="text">
             </div>
 
 
-            <input type="hidden" name="id_gembala" value="<?= $profile->id_gembala ?>">
+            <input type="hidden" name="kd_warta" value="<?= $wartas->kd_warta ?>">
       </div>
       <div class="card-footer">
-         <a class="btn btn-info" href="<?= site_url('profile') ?>">Batal</a>
-         <button class="btn btn-danger" id="btn-delete-gembala">
+         <a class="btn btn-info" href="<?= site_url('warta') ?>">Batal</a>
+         <button class="btn btn-danger" id="btn-warta-gembala">
             <i class="fa fa-trash-alt"></i>
             Hapus Data Gembala
          </button>
