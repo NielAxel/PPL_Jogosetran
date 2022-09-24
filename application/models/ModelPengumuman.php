@@ -1,16 +1,17 @@
- <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class DokumentasiModel extends CI_Model
-{
-    var $table = "dokumentasi";
-    var $primaryKey = "id_dokumentasi";
+
+class ModelPengumuman extends CI_Model {
+    var $table = "pengumuman";
+    var $primaryKey = "id_pengumuman";
 
     // function untuk get all data barang
     public function getAll()
     {
         return $this->db->get($this->table)->result();
     }
+
     // function untuk get data by primary_key
     public function getByPrimaryKey($id)
     {

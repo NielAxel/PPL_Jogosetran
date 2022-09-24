@@ -51,7 +51,7 @@
      </li>
 
      <li class="nav-item">
-         <a class="nav-link" href="charts.html">
+         <a class="nav-link" href="<?=base_url('pengumuman/index'); ?>">
              <i class="fas fa-bullhorn"></i>
              <span>Kelola Pengumuman</span></a>
      </li>
