@@ -36,8 +36,8 @@ class Dokumen extends CI_Controller
         $file = $_FILES['file'];
         if ($file = '') {
         } else {
-            $config['upload_path']          = './file/';
-            $config['allowed_types']        = '*';
+            $config['upload_path']          = './assets/pdf';
+            $config['allowed_types']        = 'pdf';
 
             $this->load->library('upload', $config);
             $this->upload->initialize($config);
